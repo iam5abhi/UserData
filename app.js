@@ -6,7 +6,7 @@ const GloBalErrorHandler =require('./Middleware/Error/Error')
 
 const adminApi =require('./Routes/adminRoutes')
 
-
+console.log("hello node js")
 
 app.use(express.urlencoded({extended:true,limit:"50000kb"}))
 app.use(express.json({limit:"50000kb"}))
